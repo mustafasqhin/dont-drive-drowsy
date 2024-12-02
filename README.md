@@ -11,7 +11,7 @@ Bu uygulama uykulu olup olmadığınızı tespit edecek ve sizi basit ve etkili 
 
 ## Yapılandırma
 
-asset/js/main.js dosyasında "eyesClosedThreshold"u 0,5 ile 1 arasında değişen kesirli bir değere atayın. 
+`asset/js/main.js` dosyasında "eyesClosedThreshold"u 0,5 ile 1 arasında değişen kesirli bir değere atayın. 
 Aynı dosyada, alarmın çalması için gereken sürenin ardından milisaniye cinsinden `timeThreshold` değerini değiştirin. 
 Şu anda algoritma 500 milisaniye bekliyor ve ardından alarmı çalıyor ancak bu ayarı değiştirebilirsiniz.
 
